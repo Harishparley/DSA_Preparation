@@ -42,7 +42,7 @@ public class twosumproblem {
 
     }
 
-    //optimal if array is sorted tc = O(nlogn)
+    //optimal if array is sorted tc = O(n)
     public static int[] twoSum(int[] nums, int target) {
         int i = 0;
         int j = nums.length-1;
