@@ -9,7 +9,7 @@ System.out.println(maxProfit(arr));
         int maxProfit = 0;
         int minPrice =arr[0];
 
-        for(int i = 0; i<arr.length; i++){
+        for(int i = 1; i<arr.length; i++){
             int profit = 0;
             if(arr[i]<minPrice){
                 minPrice = arr[i];
