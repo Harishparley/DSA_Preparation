@@ -1,6 +1,6 @@
 package String;
 import java.util.*;
-public class validanagramlc49 {
+public class groupanagramlc49 {
     
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
